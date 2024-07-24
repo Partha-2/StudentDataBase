@@ -1,0 +1,49 @@
+
+.container {
+    text-align: center;
+}
+
+
+.inputtext {
+    padding: 5px;
+    width: 200px;
+}
+
+.Save {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.Table, .Table2 {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.Table th, .Table2 th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+.Table td, .Table2 td {
+    padding: 8px;
+    text-align: left;
+}
+
+.Table{
+    background-color:powderblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (max-width: 600px) {
+    .Table, .Table2 {
+        width: 100%;
+    }
+}

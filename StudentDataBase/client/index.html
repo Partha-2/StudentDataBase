@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>StudentData</title>
+    <link rel="icon" href="server.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center class="container">
+    <form class="Form">
+        <table class="Table" border="1">
+            <h1 style="background-color: steelblue;margin-top: 0%;width: 100%;">STUDENT FORM</h1>
+            <tr>
+                <td>NAME:</td>
+                <td ><input  class="inputtext" type="text" placeholder="Enter a Name"></td>
+            </tr>
+    
+           <tr>
+                <td>AGE:</td>
+                <td><input class="inputtext" type="number" placeholder="Enter a Number"></td>
+            </tr>
+    
+            <tr>
+                <td >GENDER:</td>
+                <td>
+                    Male<input  class="inputtext"  type="radio" name="GENDER:" value="Male">
+                    Female<input  type="radio" name="GENDER:" value="Female">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>COURSE: </td>
+                <td>
+                    <select class="inputtext">
+                        <option>html</option>
+                        <option>css</option>
+                        <option>javascript</option>
+                        <option>python</option>
+                        <option>java</option>
+                    </select>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>EMAIL:</td>
+                <td><input class="inputtext" type="text" placeholder="Enter a Email"></td>
+            </tr> 
+        </table>
+    </form>
+        <button  class="Save" style="background-color: aquamarine;" onclick="save1()">save</button>
+    </center>
+    <center>
+        <form >
+            <table class="Table2" id="table1" border="1" >
+                <tr>
+                    <th>NAME</th><th>AGE</th><th>GENDER</th><th>COURSE</th><th>EMAIL</th><th>ACTION</th>
+                </tr>
+                <tr>
+                    <td>partha</td><td>21</td><td>Male</td><td>java</td><td>@gmail.com</td>
+                    <td><button class="Delete"   onclick="delete1(event)" style="background-color: brown;">delete</button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    
+    </table>
+</body>
+
+</html>
